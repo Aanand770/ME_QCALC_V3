@@ -9,7 +9,15 @@ public class App {
     }
 
     public static void main(String[] args) {
-        //System.out.println(new App().getGreeting());
+        System.out.println(new App().getGreeting());
+        ScientificCalculator calc = new ScientificCalculator();
+        int result= calc.modulo(5, 2);
+        System.out.println("modulo =" + result);
+
+        // double result= calc.cubeOf(4.0);
+        // System.out.println("cube =" + result);
+
+        /*
         StandardCalculator calc = new StandardCalculator();
         calc.add(1,2);
         System.out.println(calc.getResult());
@@ -21,6 +29,6 @@ public class App {
         System.out.println(calc.getResult());
 
         calc.divide(6,2);
-        System.out.println(calc.getResult());
+        System.out.println(calc.getResult()); */
     }
 }
